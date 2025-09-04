@@ -7,11 +7,11 @@ int main() {
     scanf("%f", &gs);
 
     if (gs > 20000)
-        disc = gs * 0.15;   // 15%
+        disc = gs * 0.15;   
     else if (gs > 10000)
-        disc = gs * 0.10;   // 10%
+        disc = gs * 0.10;  
     else
-        disc = gs * 0.05;   // 5%
+        disc = gs * 0.05;   
 
     ns = gs - disc;
 
